@@ -18,9 +18,6 @@ connect to remote via ssh
 - `sudo npm install -g pnpm`
 
 
-- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-- source ~/.bashrc
-
 ```
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -29,6 +26,18 @@ sudo apt install python3.9
 sudo apt install python3-pip
 ```
 
+- echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+- source ~/.bashrc
 
-- echo "alias python='python3.10'" >> ~/.bashrc
+- echo "alias python='python3.9'" >> ~/.bashrc
 -  restart your terminal or run source ~/.bashrc to apply the changes.
+
+
+
+fixing poetry upgrade error:
+
+- create new env > `python3.9 -m venv venv`
+- `source venv/bin/activate`
+- `python -m pip install --upgrade pip setuptools`
+- `python -m pip install -r requirements.txt`
+- `pnpm run rebuild`
