@@ -28,3 +28,7 @@ sudo apt update
 sudo apt install python3.9
 sudo apt install python3-pip
 ```
+
+
+- echo "alias python='python3.10'" >> ~/.bashrc
+-  restart your terminal or run source ~/.bashrc to apply the changes.
