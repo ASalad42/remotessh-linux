@@ -18,6 +18,8 @@ connect to remote via ssh
 - `sudo npm install -g pnpm`
 
 
+- wget copylinkaddress
+
 ```
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
