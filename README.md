@@ -43,3 +43,8 @@ fixing poetry upgrade error:
 - `python -m pip install --upgrade pip setuptools`
 - `python -m pip install -r requirements.txt`
 - `pnpm run rebuild`
+
+
+After exporting the Lightsail instance to Amazon EC2, you can use the exported snapshot to create a new Amazon EC2 instance, troubleshoot issues, or recover data.
+
+https://repost.aws/knowledge-center/lightsail-export-linux-instance-ec2
